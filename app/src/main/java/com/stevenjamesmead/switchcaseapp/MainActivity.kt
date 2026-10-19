@@ -64,7 +64,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
     Column {
         Text(
-            text = "Hello $name!",
+            text = "Namasthe $name!",
             modifier = modifier
         )
 
@@ -114,6 +114,6 @@ fun SwitchCaseText(
 @Composable
 fun GreetingPreview() {
     SwitchCaseAppTheme {
-        Greeting("Android")
+        Greeting("Mobile app dev")
     }
 }
